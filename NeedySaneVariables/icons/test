@@ -1,0 +1,22 @@
+<a class="header-social-icon curs-point" href="#">
+<!--           <img class="facebook" src="./icons/facebook.svg" alt="facebook" title="facebook" /> -->
+        </a>
+        <a class="header-social-icon curs-point" href="#">
+<!--           <img class="pinterest" src="./icons/pinterest.svg" alt="pinterest" title="pinterest" /> -->
+        </a>
+        <a class="header-social-icon curs-point" href="#">
+<!--           <img class="twitter" src="./icons/twitter.svg" alt="twitter" title="twitter" /> -->
+        </a>
+        <a class="header-social-icon curs-point" href="#">
+<!--           <img class="instagram" src="./icons/instagram.svg" alt="instagram" title="instagram" /> -->
+          <i class="fi fi-brands-instagram"></i>
+        </a>
+
+
+.facebook,.pinterest,.twitter,.instagram{
+  width: 24px;
+  height: 24px;
+}
+.facebook:hover,.pinterest:hover,.twitter:hover,.instagram:hover{
+  outline-bottom: 2px solid #4c665b;
+}

@@ -1,0 +1,54 @@
+.radio{
+  position: relative;
+}
+.radio-input{
+/*    */
+  -webkite-appearance:none;
+  appearance:none;
+  position: absolute;
+}
+.radio-label{
+  font-size: 16px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.radio-label:before{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition:opacity 0.1s linear;
+  
+}
+.radio-label:after{
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 30px;
+  background: #ce910d;
+  border: 2px solid #ccc;
+  position: absolute;
+/*   https://www.youtube.com/watch?v=NBb2OV2iQCw&t=233s  */
+  top: 4px;
+  left: 4px;
+  z-index: 2;
+  opacity: 0;
+}
+.radio-input:checked+.radio-label:before{
+/*    */
+  background: green;
+  
+}
+.radio-input:checked+.radio-label:after{
+/*    */
+  opacity: 1;
+}

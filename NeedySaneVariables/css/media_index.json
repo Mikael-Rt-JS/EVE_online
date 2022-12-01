@@ -1,0 +1,37 @@
+[
+  {
+    "row": 1,
+    "@media":"1190px",
+    "files":{
+      "./banner_content.css":[
+        ".banner-latest - 2(row)",
+        ".banner-content-header - 5",
+        ".banner-bottom-text - 9"
+      ],
+    }
+  },{
+    "row": 16,
+    "@media":"1102px",
+    "files":{
+      "./banner_content.css":[
+        ".banner - 17",
+        ".banner-content - 24"
+      ],
+    }
+  },{
+    "row": 35,
+    "@media":"1100px",
+    "files":{
+      "./header.css":[
+        ".body-container -37",
+        ".header-container -39"
+      ],
+    }
+  },,{
+    "row": 44,
+    "@media":"800px",
+    "files":{
+    
+    }
+  },
+]

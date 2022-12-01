@@ -1,0 +1,35 @@
+.subscribe{
+  margin: 32px;
+  background: #4c665b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/*   10px 0 50px */
+  padding: 10px 0 50px;
+  gap: 15px;
+}
+.subscribe-header{
+  color: snow;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.subscribe-form{
+  
+}
+.subscribe-input{
+  height: 50px;
+  padding: 15px;
+} 
+.subscribe-mail{
+  width: 240px;
+}
+.subscribe-btn{
+  text-transform: uppercase;
+  width: 170px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  background: #ebefee;
+  border: none;
+  cursor: pointer;
+}

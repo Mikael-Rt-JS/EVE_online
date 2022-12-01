@@ -1,0 +1,52 @@
+.banner{
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  align-items: end;
+  padding: 32px;
+}
+.banner-content{
+  padding-left: 30px;
+  display: grid;
+  grid-template-areas: "header . "
+  "latest insta";
+  grid-gap: 32px;
+}
+.banner-img-container{
+  display: flex;
+  align-items: flex-end;
+}
+.banner-img{
+  width: 100%;
+}
+.banner-content-header{
+  font-size: 36px;
+  width: 280px;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  text-transform: uppercase;
+  grid-area: header;
+}
+.banner-latest{
+  width: 230px;
+}
+.banner-latest-container{
+  grid-area: latest;
+}
+.banner-insta-container{
+  grid-area: insta;
+}
+.banner-content-img-container{
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.banner-bottom-text{
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: snow;
+  text-transform: uppercase;
+  
+}

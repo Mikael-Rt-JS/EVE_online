@@ -1,0 +1,37 @@
+.select{
+  position: relative;
+  margin-bottom: 10px;
+}
+.select:after{
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #000 transparent  transparent  transparent;
+  position: absolute;
+/*   top: 50%; */
+  margin-top: 17px;
+  right: 10px;
+  z-index: 1;
+/*  делает прозрачным для кликов и т.д. по объекту */
+  pointer-events: none;
+}
+.select select{
+  display: block;
+  width: 100%;
+  padding: 10px 8px;
+  position: relative;
+  margin-bottom: 10px;
+  background: none;
+  border: 1px solid #1c1c1c;
+  appearance:none;
+  position: absolute;
+  font-family: inherit;
+  font-size: 16px;
+  color: #444;
+  border-radius: 3px;
+}
+.select select:focus{
+  outline: none;
+  border-color: #0891e6;
+}
